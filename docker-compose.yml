@@ -12,3 +12,4 @@ services:
       - /var/log/serviio:/opt/serviio/log
       - /var/serviio/library:/opt/serviio/library
       - /media:/medialib
+    privileged: true
